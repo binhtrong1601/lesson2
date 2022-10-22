@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.song {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.img {
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 4px;
+}
+.containers {
+  padding-left: 10px;
+}
+.containers div {
+  color: gray;
+}
+a {
+  color: white;
+  text-decoration: none;
+}

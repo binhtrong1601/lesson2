@@ -1,0 +1,90 @@
+export const data = {
+  song: [
+    {
+      name: "3 1 0 7 2",
+      singer: "Orinn",
+      path: "./Music/3 1 0 7 - 2 - Duongg, W_N, Nâu - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/3107-2.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Anh Đâu Có Hay",
+      singer: "Lemese, August, Anngo",
+      path: "./Music/Anh Đâu Có Hay - Lemese, August, Anngo - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/anh-dau-co-hay.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Có Đâu Ai Ngờ",
+      singer: "Thu Cẩm",
+      path: "./Music/Có Đâu Ai Ngờ - Thu Cầm - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/co-dau-ai-ngo.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Nghe Em",
+      singer: "Thịnh Suy",
+      path: "./Music/Nghe Em - Thịnh Suy - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/nghe-em.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Tình Ca Ngọt Ngào",
+      singer: "Lập Nguyên",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/tinh-ca-ngot-ngao.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Là Ai Mang Nắng Đi Xa",
+      singer: "Yang Hu",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/laAi.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Nắng Ấm Xa Dần",
+      singer: "Sơn Tùng MTP",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/nangAm.jfif"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Điều Chưa Nói",
+      singer: "Tùa",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/dieuchuanoi.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Ngày Hôm Nay Của Anh Thế Nào",
+      singer: "Tùa",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/ngayhomnay.jfif"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Chờ Anh Nhé",
+      singer: "Hoàng Dũng",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/choanhnhe.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Nàng Thơ",
+      singer: "Hoàng Dũng",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/nangtho.jpg"),
+      time: "1 giờ trước",
+    },
+    {
+      name: "Chẳng Giống Giáng Sinh",
+      singer: "Lu & Wilistic",
+      path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
+      img: require("../assets/imgs/giangsinh.jpg"),
+      time: "1 giờ trước",
+    },
+  ],
+};
+
+export const newData = data.song.filter((num, index) => index > 7);

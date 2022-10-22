@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.title h2 {
+  margin-bottom: 30px;
+  color: white;
+  margin-left: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hotMusic {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+}
+.hotMusic img {
+  width: 230px;
+  background-size: cover;
+  border-radius: 4px;
+}
+.hotMusicContainer div {
+  color: gray;
+}
