@@ -69,6 +69,7 @@ export const data = {
       path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
       img: require("../assets/imgs/choanhnhe.jpg"),
       time: "1 giờ trước",
+      carousel: require("../assets/imgs/choanhnhecarousel.jpg"),
     },
     {
       name: "Nàng Thơ",
@@ -76,6 +77,7 @@ export const data = {
       path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
       img: require("../assets/imgs/nangtho.jpg"),
       time: "1 giờ trước",
+      carousel: require("../assets/imgs/nangthoCarousel.jpg"),
     },
     {
       name: "Chẳng Giống Giáng Sinh",
@@ -83,8 +85,7 @@ export const data = {
       path: "./Music/Tình Ka Ngọt Ngào - Lập Nguyên, Yến Nồi Cơm Điện - Bài hát, lyrics.mp3",
       img: require("../assets/imgs/giangsinh.jpg"),
       time: "1 giờ trước",
+      carousel: require("../assets/imgs/giangsinhcarousel.jpg"),
     },
   ],
 };
-
-export const newData = data.song.filter((num, index) => index > 7);

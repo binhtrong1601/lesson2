@@ -4,30 +4,46 @@
   box-sizing: border-box;
 }
 .container {
-  margin-top: 30px;
+  margin: 0px !important;
   display: flex;
   flex-direction: column;
+  padding: 10px 30px 10px 20px !important;
 }
-.title h2 {
-  margin-bottom: 30px;
+.title p {
   color: white;
-  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
 }
 .box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  cursor: pointer;
 }
 .hotMusic {
   display: flex;
   flex-direction: column;
-  max-width: 230px;
+  max-width: 200px;
 }
 .hotMusic img {
-  width: 230px;
+  width: 200px;
   background-size: cover;
   border-radius: 4px;
+  margin-bottom: 10px;
 }
-.hotMusicContainer div {
+.hotMusic img:hover {
+  opacity: 0.5;
+}
+.hotMusic h5 {
+  color: white;
+}
+.hotMusic h5:hover {
+  color: blueviolet;
+}
+.hotMusicContainer .singer {
   color: gray;
+}
+.hotMusicContainer .singer:hover {
+  color: blueviolet;
+  text-decoration: underline;
 }

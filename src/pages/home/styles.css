@@ -1,54 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
-/* listmusic */
-.menu {
-  color: white;
-  padding: 10px 30px 10px 20px;
-}
-.menuContainer {
-  margin-bottom: 30px;
-}
-.menuTitle {
-  margin-bottom: 30px;
-}
-.menuOption {
-  display: flex;
-  justify-content: space-between;
-}
-.option1 {
-  display: flex;
-  /* background-color: red; */
-}
-.option1 p {
-  margin-right: 50px;
-  padding: 3px 30px;
-  border-radius: 40px;
-  border: 0.5px solid gray;
-  opacity: 0.7;
-}
-.option1 p:hover {
-  border: 0.5px solid #9b59b6;
-  background-color: #9b59b6;
-  cursor: pointer;
-  opacity: 1;
-}
-.option2 {
-  color: gray;
-  cursor: pointer;
-  opacity: 0.7;
-}
-.option2:hover {
-  color: white;
-  cursor: pointer;
-}
-
-.listSong {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  row-gap: 30px;
-}
-
-/* listhotmusic */

@@ -6,19 +6,19 @@ function HotMusic(props) {
   return (
     <div className="container">
       <div className="title">
-        <h2>Cứ Chill Thôi</h2>
+        <p>Cứ Chill Thôi</p>
       </div>
       <div className="box">
         {newData.map((song) => (
-          <a href="/#" key={song.name}>
+          <div key={song.name}>
             <div className="hotMusic">
               <img src={song.img} className="hotImg" alt="" />
               <div className="hotMusicContainer">
-                <h4 className="songName">{song.name}</h4>
+                <h5 className="songName">{song.name}</h5>
                 <div className="singer">{song.singer}</div>
               </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </div>
